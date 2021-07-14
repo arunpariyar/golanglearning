@@ -10,6 +10,6 @@ func main(){
 	e := (33 > 50)
 	f := (33 < 20)
 
-	fmt.Println(a, b, c, d, e, f, )
+	fmt.Println(a, b, c, d, e, f )
 	
 }

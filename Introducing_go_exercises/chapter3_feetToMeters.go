@@ -5,11 +5,12 @@ package main
 import "fmt"
 
 func main() {
-	feet := 100
+	fmt.Println("Please enter distance in feet: ")
+	var input float32
+	fmt.Scanf("%f", &input)
+	inMeter := toMeter(input)
 
-	inMeter := toMeter(float32(feet))
-
-	fmt.Printf("%v feet in meter is %v \n", feet, inMeter)
+	fmt.Printf("%v feet in meter is %v \n", input, inMeter)
 }
 
 func toMeter(inFeet float32) float32 {

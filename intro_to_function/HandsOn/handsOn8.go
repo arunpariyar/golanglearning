@@ -6,15 +6,15 @@ package main
 
 import "fmt"
 
-func main(){
-	 // callme has been assigned to a function which in turn returns a function that returns a string
-	callMe := func () func() string{
+func main() {
+	// callme has been assigned to a function which in turn returns a function that returns a string
+	callMe := func() func() string {
 		return func() string {
 			return "Hello"
 		}
 	}
 	// result now holds the function that returns the string
-	result := callMe() 
+	result := callMe()
 	// calling result the string "Hello " is now displayed to the screeng
 	fmt.Println(result())
 

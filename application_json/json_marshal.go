@@ -5,8 +5,9 @@ import (
 	"fmt"
 )
 
+// to marshal
 type superhero struct {
-	Name  string
+	Name  string 
 	Alias string
 	Brand string
 }
@@ -26,12 +27,16 @@ func main() {
 	allHeroes := []superhero{
 		s1, s2,
 	}
-	fmt.Println("Struct:",allHeroes)
-	
+	fmt.Println("**************** the Struct ***************")
+	fmt.Println("Struct:", allHeroes)
+
+	fmt.Println("**************** JSON Marshal ***************")
 	allHeroesJson, err := json.Marshal(allHeroes)
-	
-	if err != nil { 
+
+	if err != nil {
 		fmt.Println("err", err)
 	}
-	fmt.Println("JSON:",string(allHeroesJson))
+	fmt.Println("JSON:", string(allHeroesJson))
+	
+	
 }

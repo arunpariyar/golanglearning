@@ -14,9 +14,6 @@ var (
 )
 
 func main(){
-	
-	
-
 	fmt.Printf("%-17v %-4v %-10v %-5v \n", "Spaceline","Days","Trip Type","Price")
 	fmt.Println("=======================================")
 

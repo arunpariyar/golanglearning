@@ -1,0 +1,19 @@
+help decide computer to wear a cloth
+
+what is the weather like ? 
+
+get input sunny, windy, rainy, cold
+
+if sunny
+   if above 20deg - shorts and short and slipper
+ 
+else if rainy 
+    - shirt, jacket, long trousers, shoes, rain-jacket/umbrella
+
+else if cold
+   - layers, warm jacket, leg warmers, think socks, shoes, 
+
+else 
+    warm - shirt, jacket, long trouses, shoes
+
+

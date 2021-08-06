@@ -37,8 +37,6 @@ func introduce(animal animal) {
 		fmt.Println("Hey I am an animal", animal.(cat).name)
 	}
 
-	animal.says()
-
 }
 
 func main() {
